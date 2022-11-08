@@ -1,4 +1,4 @@
-# Automação de Serviço - TesteVR
+# Exemplo de Teste API - Ruby
 
 ## Requisitos:
 
