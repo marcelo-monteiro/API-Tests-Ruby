@@ -8,8 +8,8 @@ module ReportConfig
     input_list = report_list.map { |_thread| Dir.pwd + '/data/report.json' }
     options = {
       input_path: input_list,
-      report_path: "data/report/#{report_title}",
-      report_types: %w[retry html],
+      report_path: "data/#{report_title}",
+      report_types: %w[html],
       report_title: report_title,
       color: 'cyan',
       additional_info: {
@@ -19,7 +19,7 @@ module ReportConfig
     }
 
     ReportBuilder.build_report options
-    puts "Report build with success on #{Dir.pwd}/data/report/#{report_title}.html"
+    puts "Report build with success on #{Dir.pwd}/data/#{report_title}.html"
   end
 
   def generate_title_and_list(report_title)

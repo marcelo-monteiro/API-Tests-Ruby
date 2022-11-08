@@ -7,5 +7,5 @@ end
 
 at_exit do
   # Generate report
-  HooksConfig.report_generate('TestVR - Services Tests')
+  HooksConfig.report_generate('API - Ruby Tests')
 end

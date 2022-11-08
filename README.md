@@ -42,7 +42,7 @@ http://ruby-doc.org/stdlib-2.4.0/libdoc/yaml/rdoc/YAML.html
 * Instalar o Bundler: 
     * ``gem install bundler``
 * Copiar o repositório e instalar as dependências: 
-    * ``git clone https://github.com/marcelo-monteiro/testeVR.git``
+    * ``git clone https://github.com/marcelo-monteiro/API-Tests-Ruby.git``
     * Na raiz do projeto rodar o comando: ``bundle install`` 
 
 **Para rodar os testes localmente (executar na branch Master - CLI no diretorio raiz do projeto):** 
